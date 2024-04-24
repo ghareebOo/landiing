@@ -215,8 +215,11 @@ width: 300px;
     color: var(--five-color);
 }
 .back{
-    display: block;
+    display: flex; /* Display : FLEX */
     width: 100%;
+}
+.back img { 
+    width: 100%; /* Width 100% For Resize Img */
 }
 footer{
     width: 100%;
